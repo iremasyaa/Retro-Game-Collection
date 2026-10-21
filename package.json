@@ -1,0 +1,15 @@
+{
+  "name": "retro-oyun-koleksiyonu",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Neon atari salonu havasında 10 retro oyun: tek HTML dosyası, internetsiz çalışır.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node tests/chess.test.js && node tests/tavla.test.js && node tests/zorluk.test.js"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
